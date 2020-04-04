@@ -174,6 +174,5 @@ def accuracy(output, target, topk=(1,)):
 def save_checkpoint(state, is_best, filename):
     torch.save(state, filename)
 
-correct = 0
-total = 0
+
 
